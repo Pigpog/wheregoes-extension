@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "WhereGoes",
+  "description": "Easily check links on Wheregoes.com",
+  "version": "1.0",
+  "icons": {
+    "128": "icon128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon128.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+          "contextMenus",
+          "tabs"
+        ]
+}
